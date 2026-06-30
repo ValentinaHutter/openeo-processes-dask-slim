@@ -48,7 +48,7 @@ numpy = { version = ">=1.26.3,<3", optional = false }
 pystac = { version = ">=1.8.0", optional = false }
 zarr = [
     { version = ">=2.17.0,<2.18", markers = "python_version < '3.11'" },
-    { version = ">=3,<4", markers = "python_version = '3.11'" },
+    { version = ">=3,<4", markers = "python_version == '3.11'" },
     { version = ">=2.17.0,<2.18", markers = "python_version > '3.11'" },
 ]
 
